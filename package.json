@@ -1,0 +1,32 @@
+{
+  "name": "bootcamp_HW_react",
+  "version": "1.0.0",
+  "description": "React-based memorization game",
+  "main": "server.js",
+  "author": "",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EPluribusAlex/bootcamp_HW_react.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EPluribusAlex/bootcamp_HW_react/issues"
+  },
+  "homepage": "https://github.com/EPluribusAlex/bootcamp_HW_react#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.3"
+  }
+}
